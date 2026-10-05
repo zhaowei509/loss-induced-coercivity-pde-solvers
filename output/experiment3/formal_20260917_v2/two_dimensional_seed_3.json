@@ -1,0 +1,148 @@
+{
+  "parameters": [
+    -4.113329589072757,
+    -2.208878893555587,
+    4.371556920667022,
+    -3.1875417593555815,
+    2.511859777042925,
+    3.2393447149641434
+  ],
+  "final": {
+    "objective": 14.421680495102068,
+    "residual_norm": 5.3706015482629255,
+    "gradient_norm": 1.943844156855669e-15,
+    "sigma_min_boundary": 0.1376880054617279,
+    "rank_threshold": 2.842140370120832e-14,
+    "boundary_full_column_rank": true,
+    "mu_B": 0.0011848741780018008,
+    "mu_GN": 0.8976894214278569,
+    "kappa_rem": 0.04624955263343233,
+    "delta_curv": 0.8514398687944246,
+    "lambda_min_hessian": 0.9072768193642475
+  },
+  "polish": {
+    "stop_reason": "gradient_tolerance_reached",
+    "attempts": [
+      {
+        "gradient_before": 4.699563828378066e-08,
+        "gradient_after": 1.943844156855669e-15,
+        "objective_before": 14.421680495102068,
+        "objective_after": 14.421680495102068,
+        "step_norm": 4.621930463532176e-08,
+        "lambda_min_hessian": 0.9072768180482088,
+        "accepted": true
+      }
+    ]
+  },
+  "reached_gradient_tolerance": true,
+  "solver": {
+    "success": false,
+    "status": 2,
+    "message": "A bad approximation caused failure to predict improvement.",
+    "iterations": 6,
+    "function_evaluations": 8,
+    "gradient_evaluations": 7,
+    "hessian_evaluations": 8
+  },
+  "branch": "two_dimensional",
+  "seed": 3,
+  "epsilon": 0.1,
+  "rank_checks": {
+    "raw_boundary": {
+      "sigma_min": 0.07146064284805521,
+      "sigma_max": 8.887016134073702,
+      "rank_threshold": 6.314604756648878e-14,
+      "full_column_rank": true
+    },
+    "linearized": {
+      "sigma_min": 0.07874769853607032,
+      "sigma_max": 5.917927687277141,
+      "rank_threshold": 7.989387005001851e-13,
+      "full_column_rank": true
+    },
+    "normalized_boundary": {
+      "sigma_min": 0.1376880054617279,
+      "sigma_max": 3.999956972440882,
+      "rank_threshold": 2.842140370120832e-14,
+      "full_column_rank": true
+    }
+  },
+  "train_order": 24,
+  "refinement_order": 48,
+  "refined": {
+    "objective": 14.421680495102104,
+    "residual_norm": 5.370601548262933,
+    "gradient_norm": 1.911727228429854e-14,
+    "sigma_min_boundary": 0.1376880054617279,
+    "rank_threshold": 2.842140370120832e-14,
+    "boundary_full_column_rank": true,
+    "mu_B": 0.0011848741780018008,
+    "mu_GN": 0.8976894214278577,
+    "kappa_rem": 0.046249552633430766,
+    "delta_curv": 0.8514398687944269,
+    "lambda_min_hessian": 0.9072768193642485
+  },
+  "quadrature_delta_curv_difference": 2.3314683517128287e-15,
+  "quadrature_sign_stable": true,
+  "numerical_conditions": {
+    "stationary": true,
+    "boundary_full_column_rank": true,
+    "gauss_newton_above_boundary_floor": true,
+    "hessian_above_curvature_gap": true,
+    "positive_curvature_gap": true,
+    "refinement_sign_stable": true,
+    "nonzero_residual": true
+  },
+  "numerical_conditions_met": true,
+  "raw_coordinates": {
+    "parameters": [
+      -0.4889616527217398,
+      -26.67863810364647,
+      7.820969666882841,
+      -0.09310414523950722,
+      0.2974266134377325,
+      33.26615498183935
+    ],
+    "final": {
+      "objective": 14.42168049510207,
+      "residual_norm": 5.3706015482629255,
+      "gradient_norm": 6.155080509976285e-15,
+      "sigma_min_boundary": 0.07146064284805521,
+      "rank_threshold": 6.314604756648878e-14,
+      "boundary_full_column_rank": true,
+      "mu_B": 0.00031916396726608154,
+      "mu_GN": 0.006032200528422916,
+      "kappa_rem": 0.3711591208451582,
+      "delta_curv": -0.36512692031673527,
+      "lambda_min_hessian": 0.006289353673227343
+    },
+    "refined": {
+      "objective": 14.421680495102104,
+      "residual_norm": 5.370601548262933,
+      "gradient_norm": 5.967646310854423e-14,
+      "sigma_min_boundary": 0.07146064284805521,
+      "rank_threshold": 6.314604756648878e-14,
+      "boundary_full_column_rank": true,
+      "mu_B": 0.00031916396726608154,
+      "mu_GN": 0.006032200528423111,
+      "kappa_rem": 0.37115912084514824,
+      "delta_curv": -0.3651269203167251,
+      "lambda_min_hessian": 0.006289353673227764
+    },
+    "quadrature_sign_stable": true,
+    "residual_disagreement": 1.1934897514720433e-15,
+    "objective_disagreement": 1.7763568394002505e-15,
+    "gradient_transform_disagreement": 1.0334129802128219e-15,
+    "hessian_transform_disagreement": 2.1316282072803006e-14,
+    "numerical_conditions": {
+      "stationary": true,
+      "boundary_full_column_rank": true,
+      "gauss_newton_above_boundary_floor": true,
+      "hessian_above_curvature_gap": true,
+      "positive_curvature_gap": false,
+      "refinement_sign_stable": true,
+      "nonzero_residual": true
+    },
+    "numerical_conditions_met": false
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "created_utc": "2026-09-21T03:46:53.639604+00:00",
+  "environment": {
+    "created_utc": "2026-09-21T03:46:53.657499+00:00",
+    "cuda_available": true,
+    "cuda_device": "NVIDIA GeForce RTX 4060 Ti",
+    "numpy": "2.1.2",
+    "pid": 11056,
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.15 | packaged by Anaconda, Inc. | (main, Oct  3 2024, 07:22:19) [MSC v.1929 64 bit (AMD64)]",
+    "scipy": "1.15.2",
+    "torch": "2.4.1+cu121",
+    "torch_cuda_version": "12.1"
+  },
+  "frozen_config": {
+    "certificates_enabled": true,
+    "configuration": {
+      "boundary_count": 8,
+      "boundary_penalty": 10.0,
+      "column_bias_count": 4,
+      "equation": "-Delta u + u^3 = 1, homogeneous Dirichlet",
+      "interior_count": 16,
+      "name": "constant_source",
+      "width": 8
+    },
+    "feature_draw": "PCG64(seed): weights N(0,1), then biases N(0,1)",
+    "interval_subdivision_depth": 0,
+    "radii": [
+      0.0001,
+      0.0003,
+      0.001,
+      0.003,
+      0.01,
+      0.03,
+      0.1
+    ],
+    "seeds": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "git": {
+    "commit": null,
+    "dirty": null
+  },
+  "plan_path": "C:\\Users\\ntkexp\\BeyondNTK\\PAPER_A_SUPPLEMENTARY_EXPERIMENT_PLAN.md",
+  "plan_sha256": "e1a313d3e1f5c59888c89be271264593d15d4aa86adc89cba13b1eddd7eaad0a",
+  "run_kind": "formal",
+  "schema_version": 1,
+  "source_sha256": {
+    "experiments\\Ex4\\supplement\\certificate_common.py": "f6da584674b9b4dd62f28cc3d7e887927fc3c6517e29ce1e49eed53a2c7347c5",
+    "experiments\\Ex4\\supplement\\general_common.py": "83f926dd62b2baea4289446fe7971123360691dc2229d11ddabca7cf4a716070",
+    "experiments\\Ex4\\supplement\\general_constant.py": "2871a1844a25cbe8d346b6bb6c5f594c1661149e5bfa9299e99d682135778fa3",
+    "experiments\\shared\\artifacts.py": "530a2b2b0ea07a69d79ad16cdf7a5b802b9f85b7bbaecbeda52837d752abc089",
+    "experiments\\shared\\manifests.py": "eea14695dfa5fee4caf10776dd51b24e03c4b279b225ec5e9d31e8cb57cc5d4f",
+    "experiments\\shared\\numerics.py": "74a4b1b3ef03bead6d4bc849c153c91eba418ee5edc06b14d01a84bf6531c3a6"
+  },
+  "supplement": "S2B"
+}

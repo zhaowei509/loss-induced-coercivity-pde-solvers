@@ -1,0 +1,17 @@
+% Derived from analysis.json; only seeds 30002 and 30003 are new runs.
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}ccccc@{}}
+\hline
+Initial seed & $\rho_{\rm AC}(0)\to\rho_{\rm AC}(\mathrm{final})$ & Final energy & Steps & Stop \\
+\hline
+$30001$ & $5.50\times10^{-2}\to4.48\times10^{-8}$ & $0.119195$ & $9579$ & Underflow \\
+$30002$ & $1.14\times10^{-1}\to5.83\times10^{-8}$ & $0.119195$ & $8434$ & Underflow \\
+$30003$ & $8.82\times10^{-2}\to4.81\times10^{-8}$ & $0.119195$ & $9337$ & Underflow \\
+\hline
+\end{tabular}
+\caption{Constructed-basis Allen--Cahn trajectories from three fixed, non-mirror initial directions.  The table shows the independent stationarity residual $\rho_{\rm AC}$ before and after training, the final energy, and the stopping event.  All three runs reach the same reported energy and residuals below $6\times10^{-8}$, but stop by numerical step underflow rather than the gradient threshold.  This is a finite-dimensional diagnostic, not a convergence certificate for arbitrary initializations.}
+\label{tab:ex2-c-supplement}
+\end{table*}

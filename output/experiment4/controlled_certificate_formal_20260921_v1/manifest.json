@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-09-21T03:45:55.661494+00:00",
+  "environment": {
+    "created_utc": "2026-09-21T03:45:55.706168+00:00",
+    "cuda_available": true,
+    "cuda_device": "NVIDIA GeForce RTX 4060 Ti",
+    "numpy": "2.1.2",
+    "pid": 7276,
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.15 | packaged by Anaconda, Inc. | (main, Oct  3 2024, 07:22:19) [MSC v.1929 64 bit (AMD64)]",
+    "scipy": "1.15.2",
+    "torch": "2.4.1+cu121",
+    "torch_cuda_version": "12.1"
+  },
+  "frozen_config": {
+    "formal_results": "C:\\Users\\ntkexp\\BeyondNTK\\output\\experiment4\\formal_20260918_v1\\results.json",
+    "formal_results_sha256": "5eaed180c4d9afb0a0953afd05459b53441ce9aaf296216ea1bb6b2944c49af8",
+    "main_radius": 0.001,
+    "radii": [
+      0.0001,
+      0.0003,
+      0.001,
+      0.003
+    ],
+    "rounding": "IEEE float64 nextafter outward; tanh/SVD at 100 dps",
+    "subdivision_depth": 1
+  },
+  "git": {
+    "commit": null,
+    "dirty": null
+  },
+  "plan_path": "C:\\Users\\ntkexp\\BeyondNTK\\PAPER_A_SUPPLEMENTARY_EXPERIMENT_PLAN.md",
+  "plan_sha256": "e1a313d3e1f5c59888c89be271264593d15d4aa86adc89cba13b1eddd7eaad0a",
+  "run_kind": "formal",
+  "schema_version": 1,
+  "source_sha256": {
+    "experiments\\Ex4\\core.py": "a01c0b05c6fc42cf8c672c3b91612eac93113e56ddad8a7c8e6f953a9edf05fd",
+    "experiments\\Ex4\\supplement\\certificate_common.py": "f6da584674b9b4dd62f28cc3d7e887927fc3c6517e29ce1e49eed53a2c7347c5",
+    "experiments\\Ex4\\supplement\\controlled_certificate.py": "5c8cb30b911aa8ef43b2655f6dada9c6221fba3c97b75d149842d877b84760cd"
+  },
+  "supplement": "S2A"
+}

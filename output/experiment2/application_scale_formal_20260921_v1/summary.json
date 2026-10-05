@@ -1,0 +1,63 @@
+{
+  "by_configuration": {
+    "N32768": {
+      "finite_count": 9,
+      "pre_registered_count": 10,
+      "relative_l2_error_median": 2.166868819998068e-05,
+      "relative_l2_error_q1": 1.9457452584298475e-05,
+      "relative_l2_error_q3": 3.1759914927566006e-05,
+      "stationarity_pass_count": 0,
+      "stop_reasons": {
+        "conditioning_failure": 1,
+        "optimizer_budget": 9
+      }
+    },
+    "N4096": {
+      "finite_count": 9,
+      "pre_registered_count": 10,
+      "relative_l2_error_median": 2.3389441231879066e-05,
+      "relative_l2_error_q1": 2.00847225552175e-05,
+      "relative_l2_error_q3": 2.9237830403372328e-05,
+      "stationarity_pass_count": 0,
+      "stop_reasons": {
+        "conditioning_failure": 1,
+        "optimizer_budget": 9
+      }
+    },
+    "W128_C": {
+      "finite_count": 9,
+      "pre_registered_count": 10,
+      "relative_l2_error_median": 2.4435640115935666e-05,
+      "relative_l2_error_q1": 2.1319340435556732e-05,
+      "relative_l2_error_q3": 2.8665271907234732e-05,
+      "stationarity_pass_count": 0,
+      "stop_reasons": {
+        "conditioning_failure": 1,
+        "optimizer_budget": 9
+      }
+    },
+    "W256": {
+      "finite_count": 0,
+      "pre_registered_count": 10,
+      "relative_l2_error_median": null,
+      "relative_l2_error_q1": null,
+      "relative_l2_error_q3": null,
+      "stationarity_pass_count": 0,
+      "stop_reasons": {
+        "conditioning_failure": 10
+      }
+    },
+    "W64": {
+      "finite_count": 10,
+      "pre_registered_count": 10,
+      "relative_l2_error_median": 3.948693064338879e-05,
+      "relative_l2_error_q1": 3.511557531570703e-05,
+      "relative_l2_error_q3": 4.705185451662658e-05,
+      "stationarity_pass_count": 0,
+      "stop_reasons": {
+        "optimizer_budget": 10
+      }
+    }
+  },
+  "run_count": 50
+}

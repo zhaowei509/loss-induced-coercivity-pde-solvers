@@ -1,0 +1,83 @@
+{
+  "plan_sha256": "397359c2b19d3b122f41309be21eff8a5a046c0123b793bad809eff5e1b8b329",
+  "raw_record_count": 44,
+  "analysis_code_sha256": "5d1ff48642387b33a402d297ed922f486ee52bb236a09301c847f6f1b07b82e3",
+  "table1": [
+    {
+      "branch": "A1",
+      "success": "8/8",
+      "q_linear": 0.32701181202947815,
+      "maximum_q_k": 0.3270118120294781,
+      "maximum_recurrence_error": 5.642827348853912e-15,
+      "minimum_mu_tube": null,
+      "slope_median": null,
+      "slope_q1": null,
+      "slope_q3": null,
+      "r_squared_median": null,
+      "r_squared_q1": null,
+      "r_squared_q3": null
+    },
+    {
+      "branch": "A2",
+      "success": "8/8",
+      "q_linear": null,
+      "maximum_q_k": null,
+      "maximum_recurrence_error": null,
+      "minimum_mu_tube": 0.9365851941681091,
+      "slope_median": -1.2112635420188935,
+      "slope_q1": -1.2266007700401356,
+      "slope_q3": -1.2095317880814724,
+      "r_squared_median": 0.9999875351837535,
+      "r_squared_q1": 0.9986492148721097,
+      "r_squared_q3": 0.9999970038040745
+    },
+    {
+      "branch": "A3",
+      "success": "8/8",
+      "q_linear": null,
+      "maximum_q_k": null,
+      "maximum_recurrence_error": null,
+      "minimum_mu_tube": 4.896523265532187,
+      "slope_median": -6.37393476328338,
+      "slope_q1": -6.456128592083409,
+      "slope_q3": -6.365012548441248,
+      "r_squared_median": 0.9999918989227077,
+      "r_squared_q1": 0.9985977037528637,
+      "r_squared_q3": 0.9999970854177052
+    }
+  ],
+  "table2": [
+    {
+      "dynamics": "Gradient flow",
+      "full_rank": "10/10",
+      "sigma_min_median": 0.012802326191473291,
+      "sigma_min_q1": 0.006925933956495014,
+      "sigma_min_q3": 0.018410797747698427,
+      "worst_radius_ratio": 0.04084330053160838,
+      "gradient_success": "2/10",
+      "final_gradient_median": 1.3020708909267454e-07,
+      "final_gradient_q1": 2.5856000697167206e-08,
+      "final_gradient_q3": 2.8643734675673525e-05,
+      "descent_audit": "10/10",
+      "stop_reasons": "{\"gradient_tolerance\": 2, \"time_budget\": 8}"
+    },
+    {
+      "dynamics": "Armijo",
+      "full_rank": "10/10",
+      "sigma_min_median": 0.012802326191473291,
+      "sigma_min_q1": 0.006925933956495014,
+      "sigma_min_q3": 0.018410797747698427,
+      "worst_radius_ratio": 0.040746649958251877,
+      "gradient_success": "0/10",
+      "final_gradient_median": 0.019774365407270133,
+      "final_gradient_q1": 0.008585550021919928,
+      "final_gradient_q3": 0.04487395277026317,
+      "descent_audit": "10/10",
+      "stop_reasons": "{\"iteration_budget\": 10}"
+    }
+  ],
+  "figures": [
+    "figure1_toy_convergence.pdf",
+    "figure2_general_case.pdf"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "mode": "formal",
+  "created_utc": "2026-09-17T08:20:17.993531+00:00",
+  "max_steps": 50000,
+  "plan_sha256": "41a2d63e9958dd10cd91c48be1e28925feda959eb74c08b8831f6a561cf3c6ee",
+  "source_sha256": {
+    "__init__.py": "30e89f53a74020095efe89fb8356c3b1702dae3c1add7c09dcd5e2522c837cf6",
+    "analysis.py": "55116a6981d31b008347fa6c1d6f139040623bcfc9af66c69d6d02dba939bb8a",
+    "c_supplement.py": "32acf5d982c8729699a6e96bff4b49070a4e1df045aa9911762671f1b766457c",
+    "checks.py": "7152e105c5a1db523d4e4b4ff2f0b999fdc562168394f2c8dad186e415a2b48f",
+    "conditioning_pilot.py": "952a196c4d2b6657da0eeba793392e1a5298400a8f9516b8dc3c366c7ec37974",
+    "dynamics.py": "28b41d41c7030fa244deffa69f8f80ddffe3a221294fd5dc02ffd21575df6e21",
+    "experiment.py": "c093f108ac12a363259b272d7775ad9889520d4527bee299d1f87a7754919c35",
+    "features.py": "8adc707c45828b4852bb585ea51fc0a73b3a072e96528f9892db4accc6e92c41",
+    "io.py": "c9878de09f515533283cf0337d54e74a90de65bfee0e6019eb066eebda21b884",
+    "monitor.py": "3b5b51e91794c1073b555b8393c26dfc5c493b05fd5e72f5ca141c99f7968f43",
+    "objectives.py": "06808ed4ab356cbbbafd5fca869bdf337143f294db981bcebd9b53ab9214d60e",
+    "pilot500k.py": "e2d93be70cef4332b00d88f5e841b04c8c54de79dfef5287d8e2ac6f254b6a45",
+    "run.py": "ad9a7b52693c39d7620d59e5b22a64b02a82a677a99d85b067516c31ca86ba6c",
+    "sampling.py": "1b224bea42e58776c1ea2588c29752a1598787765343d24697980944e34b6e3f"
+  },
+  "reference_sha256": {
+    "control_ac_seed30001_plus\\metadata.json": "423d03dfe27ab61e929da437c517296e8396974c15b0a40dca2192ea707f6856",
+    "control_ac_seed30001_plus\\trajectory.npz": "d07e5dd7675f665549a84443fee21a45679cd5c12785e62e9231535d5f8e3738"
+  },
+  "initial_seeds": [
+    30001,
+    30002,
+    30003
+  ],
+  "maximum_pairwise_direction_alignment": 0.15087329853278658,
+  "planned_runs": [
+    "control_ac_init30002_plus",
+    "control_ac_init30003_plus"
+  ],
+  "records": [
+    {
+      "run": "control_ac_init30002_plus",
+      "initial_seed": 30002,
+      "accepted_steps": 8434,
+      "stop_reason": "step_underflow",
+      "elapsed_seconds": 0.8372099999978673
+    },
+    {
+      "run": "control_ac_init30003_plus",
+      "initial_seed": 30003,
+      "accepted_steps": 9337,
+      "stop_reason": "step_underflow",
+      "elapsed_seconds": 2.7634216000005836
+    }
+  ]
+}

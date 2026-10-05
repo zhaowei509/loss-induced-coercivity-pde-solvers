@@ -1,0 +1,138 @@
+{
+  "parameters": [
+    -2.6122013793719003,
+    -6.597816657891232,
+    1.2419823514222448,
+    -4.988383051697294,
+    -1.5917689202762377,
+    0.6819771358856114
+  ],
+  "final": {
+    "objective": 8.91312042330141,
+    "residual_norm": 4.222113315225305,
+    "gradient_norm": 4.894737525306643e-13,
+    "sigma_min_boundary": 0.13270981572175122,
+    "rank_threshold": 2.841223775815212e-14,
+    "boundary_full_column_rank": true,
+    "mu_B": 0.001100743449306323,
+    "mu_GN": 0.941574691038694,
+    "kappa_rem": 0.010012945429706026,
+    "delta_curv": 0.931561745608988,
+    "lambda_min_hessian": 0.9514309985600454
+  },
+  "polish": {
+    "stop_reason": "not_needed",
+    "attempts": []
+  },
+  "reached_gradient_tolerance": true,
+  "solver": {
+    "success": true,
+    "status": 0,
+    "message": "Optimization terminated successfully.",
+    "iterations": 7,
+    "function_evaluations": 8,
+    "gradient_evaluations": 8,
+    "hessian_evaluations": 8
+  },
+  "branch": "two_dimensional",
+  "seed": 1,
+  "epsilon": 0.1,
+  "rank_checks": {
+    "raw_boundary": {
+      "sigma_min": 0.031807672778871976,
+      "sigma_max": 5.075137795830397,
+      "rank_threshold": 3.606102293808815e-14,
+      "full_column_rank": true
+    },
+    "linearized": {
+      "sigma_min": 0.0776805125081847,
+      "sigma_max": 1.7052554364185926,
+      "rank_threshold": 2.3021480396290355e-13,
+      "full_column_rank": true
+    },
+    "normalized_boundary": {
+      "sigma_min": 0.13270981572175122,
+      "sigma_max": 3.9986669806367443,
+      "rank_threshold": 2.841223775815212e-14,
+      "full_column_rank": true
+    }
+  },
+  "train_order": 24,
+  "refinement_order": 48,
+  "refined": {
+    "objective": 8.913120423301443,
+    "residual_norm": 4.222113315225314,
+    "gradient_norm": 4.987175613566966e-13,
+    "sigma_min_boundary": 0.13270981572175122,
+    "rank_threshold": 2.841223775815212e-14,
+    "boundary_full_column_rank": true,
+    "mu_B": 0.001100743449306323,
+    "mu_GN": 0.941574691038694,
+    "kappa_rem": 0.010012945429705383,
+    "delta_curv": 0.9315617456089885,
+    "lambda_min_hessian": 0.9514309985600462
+  },
+  "quadrature_delta_curv_difference": 5.551115123125783e-16,
+  "quadrature_sign_stable": true,
+  "numerical_conditions": {
+    "stationary": true,
+    "boundary_full_column_rank": true,
+    "gauss_newton_above_boundary_floor": true,
+    "hessian_above_curvature_gap": true,
+    "positive_curvature_gap": true,
+    "refinement_sign_stable": true,
+    "nonzero_residual": true
+  },
+  "numerical_conditions_met": true,
+  "raw_coordinates": {
+    "parameters": [
+      -11.466699652366636,
+      -8.546676457623517,
+      6.428736526457241,
+      -7.193786022026852,
+      -8.581466258884362,
+      7.658578387503637
+    ],
+    "final": {
+      "objective": 8.913120423301407,
+      "residual_norm": 4.222113315225305,
+      "gradient_norm": 7.562988325671391e-13,
+      "sigma_min_boundary": 0.031807672778871976,
+      "rank_threshold": 3.606102293808815e-14,
+      "boundary_full_column_rank": true,
+      "mu_B": 6.323300297548708e-05,
+      "mu_GN": 0.006040663250634928,
+      "kappa_rem": 0.004903910681969995,
+      "delta_curv": 0.0011367525686649324,
+      "lambda_min_hessian": 0.006151625975052959
+    },
+    "refined": {
+      "objective": 8.913120423301443,
+      "residual_norm": 4.222113315225314,
+      "gradient_norm": 7.724890240249591e-13,
+      "sigma_min_boundary": 0.031807672778871976,
+      "rank_threshold": 3.606102293808815e-14,
+      "boundary_full_column_rank": true,
+      "mu_B": 6.323300297548708e-05,
+      "mu_GN": 0.006040663250635088,
+      "kappa_rem": 0.00490391068196858,
+      "delta_curv": 0.0011367525686665084,
+      "lambda_min_hessian": 0.006151625975052758
+    },
+    "quadrature_sign_stable": true,
+    "residual_disagreement": 5.273559366969494e-16,
+    "objective_disagreement": 1.7763568394002505e-15,
+    "gradient_transform_disagreement": 1.7473607391061298e-15,
+    "hessian_transform_disagreement": 4.440892098500626e-16,
+    "numerical_conditions": {
+      "stationary": true,
+      "boundary_full_column_rank": true,
+      "gauss_newton_above_boundary_floor": true,
+      "hessian_above_curvature_gap": true,
+      "positive_curvature_gap": true,
+      "refinement_sign_stable": true,
+      "nonzero_residual": true
+    },
+    "numerical_conditions_met": true
+  }
+}

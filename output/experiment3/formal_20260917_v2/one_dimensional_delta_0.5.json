@@ -1,0 +1,62 @@
+{
+  "parameters": [
+    1.0138983512327595,
+    1.0170100372645645
+  ],
+  "final": {
+    "objective": 0.06020346668766593,
+    "residual_norm": 0.3469970221418793,
+    "gradient_norm": 6.847365143087796e-14,
+    "sigma_min_boundary": 1.0767157303730102,
+    "rank_threshold": 6.153829429150803e-16,
+    "boundary_full_column_rank": true,
+    "mu_B": 1.1593167640326847,
+    "mu_GN": 6.593368672244723,
+    "kappa_rem": 0.07886844484641695,
+    "delta_curv": 6.514500227398306,
+    "lambda_min_hessian": 6.525253916061173
+  },
+  "polish": {
+    "stop_reason": "not_needed",
+    "attempts": []
+  },
+  "reached_gradient_tolerance": true,
+  "solver": {
+    "success": true,
+    "status": 0,
+    "message": "Optimization terminated successfully.",
+    "iterations": 3,
+    "function_evaluations": 4,
+    "gradient_evaluations": 4,
+    "hessian_evaluations": 4
+  },
+  "branch": "one_dimensional",
+  "delta": 0.5,
+  "train_order": 256,
+  "refinement_order": 512,
+  "refined": {
+    "objective": 0.060203466687668954,
+    "residual_norm": 0.346997022141888,
+    "gradient_norm": 5.821734849015142e-14,
+    "sigma_min_boundary": 1.0767157303730102,
+    "rank_threshold": 6.153829429150803e-16,
+    "boundary_full_column_rank": true,
+    "mu_B": 1.1593167640326847,
+    "mu_GN": 6.593368672244452,
+    "kappa_rem": 0.07886844484643123,
+    "delta_curv": 6.51450022739802,
+    "lambda_min_hessian": 6.525253916060889
+  },
+  "quadrature_delta_curv_difference": -2.859934511434403e-13,
+  "quadrature_sign_stable": true,
+  "numerical_conditions": {
+    "stationary": true,
+    "boundary_full_column_rank": true,
+    "gauss_newton_above_boundary_floor": true,
+    "hessian_above_curvature_gap": true,
+    "positive_curvature_gap": true,
+    "refinement_sign_stable": true,
+    "nonzero_residual": true
+  },
+  "numerical_conditions_met": true
+}

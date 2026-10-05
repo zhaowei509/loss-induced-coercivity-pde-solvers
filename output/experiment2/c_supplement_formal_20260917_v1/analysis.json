@@ -1,0 +1,56 @@
+{
+  "mode": "formal",
+  "plan_sha256": "41a2d63e9958dd10cd91c48be1e28925feda959eb74c08b8831f6a561cf3c6ee",
+  "reference_sha256": {
+    "control_ac_seed30001_plus\\metadata.json": "423d03dfe27ab61e929da437c517296e8396974c15b0a40dca2192ea707f6856",
+    "control_ac_seed30001_plus\\trajectory.npz": "d07e5dd7675f665549a84443fee21a45679cd5c12785e62e9231535d5f8e3738"
+  },
+  "rows": [
+    {
+      "initial_seed": 30001,
+      "source": "frozen formal reference",
+      "rho_initial": 0.05495558890815898,
+      "rho_final": 4.47998516247656e-08,
+      "energy_initial": 0.2501670364901456,
+      "energy_final": 0.11919484240633679,
+      "energy_final_512": 0.11919484240633091,
+      "rho_final_512": 4.4799851447966e-08,
+      "energy_256_512_difference": 5.88418203051333e-15,
+      "rho_256_512_difference": 1.76799598893614e-16,
+      "accepted_steps": 9579,
+      "stop_reason": "step_underflow",
+      "final_gradient": 1.969974734486372e-09
+    },
+    {
+      "initial_seed": 30002,
+      "source": "new supplement",
+      "rho_initial": 0.11439528629049087,
+      "rho_final": 5.8281222647415434e-08,
+      "energy_initial": 0.24126327686768528,
+      "energy_final": 0.11919484240633779,
+      "energy_final_512": 0.11919484240633191,
+      "rho_final_512": 5.828122308963581e-08,
+      "energy_256_512_difference": 5.88418203051333e-15,
+      "rho_256_512_difference": 4.422203772357338e-16,
+      "accepted_steps": 8434,
+      "stop_reason": "step_underflow",
+      "final_gradient": 2.562788329212476e-09
+    },
+    {
+      "initial_seed": 30003,
+      "source": "new supplement",
+      "rho_initial": 0.0881945705134702,
+      "rho_final": 4.8136528325753484e-08,
+      "energy_initial": 0.2466767793445152,
+      "energy_final": 0.11919484240633701,
+      "energy_final_512": 0.11919484240633112,
+      "rho_final_512": 4.813652870779122e-08,
+      "energy_256_512_difference": 5.898059818321144e-15,
+      "rho_256_512_difference": 3.820377334212501e-16,
+      "accepted_steps": 9337,
+      "stop_reason": "step_underflow",
+      "final_gradient": 2.11669776188763e-09
+    }
+  ],
+  "note": "Finite-step diagnostics only; numerical underflow is not convergence."
+}

@@ -1,0 +1,35 @@
+{
+  "mode": "formal",
+  "created_utc": "2026-09-17T11:33:46.592124+00:00",
+  "solver_protocol": "trust-exact with uniform Newton polishing",
+  "max_polish_steps": 3,
+  "polish_gradient_factor": 0.5,
+  "polish_objective_ulps": 32,
+  "plan_sha256": "39f5d88e26b4186f936d6fc6d599acc7742970a3e3cc01b89951698c5fd0ea1e",
+  "source_sha256": {
+    "__init__.py": "f5fc1c76476ec581880491634f88bf272c2101fac67448c8f314db1d695896ef",
+    "checks.py": "593fb75d2c15d3a5142e5c098952af96f54d663dd057f65c085f244f4d70cf00",
+    "core.py": "c4a39275b0b4f08075b691c79bdf5e634c0e5b58078a4b8feb5dcc284b95e3a8",
+    "run.py": "6ebd2868a3c17d8f4c03aaf7aed5f702b6bce052f58c59132f42ffa0610ad01d"
+  },
+  "environment": {
+    "python": "3.10.15",
+    "numpy": "2.1.2",
+    "scipy": "1.15.2",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "expected_1d_deltas": [
+    0.0,
+    0.05,
+    0.2,
+    0.5
+  ],
+  "expected_2d_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "expected_2d_epsilon": 0.1
+}

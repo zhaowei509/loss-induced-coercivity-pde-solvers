@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "experiment": "1",
+  "mode": "formal",
+  "created_utc": "2026-09-16T05:38:40.299836+00:00",
+  "plan_path": "C:\\Users\\ntkexp\\BeyondNTK\\EXPERIMENT1_PLAN.md",
+  "plan_sha256": "397359c2b19d3b122f41309be21eff8a5a046c0123b793bad809eff5e1b8b329",
+  "environment": {
+    "python": "3.10.15",
+    "pytorch": "2.4.1+cu121",
+    "torch_cuda": "12.1",
+    "numpy": "2.1.2",
+    "scipy": "1.15.2",
+    "matplotlib": "3.10.1",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "device": "cpu",
+    "torch_num_threads": 1,
+    "torch_num_interop_threads": 10,
+    "device_name": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel"
+  },
+  "frozen_constants": {
+    "mode": "formal",
+    "toy_order": 24,
+    "toy_boundary_count": 32,
+    "toy_initial_radius": 0.2,
+    "toy_audit_radius": 0.4,
+    "a1_eta": 0.5,
+    "a1_steps": 25,
+    "a_flow": {
+      "rtol": 1e-10,
+      "atol": 1e-12,
+      "target_tolerance": 1e-10,
+      "gradient_tolerance": 1e-12,
+      "output_count": 200
+    },
+    "b_width": 8,
+    "b_interior_count": 2048,
+    "b_boundary_count": 32,
+    "b_boundary_penalty": 10.0,
+    "b_flow": {
+      "time_limit": 10000.0,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "gradient_tolerance": 1e-08
+    },
+    "b_armijo": {
+      "max_steps": 5000,
+      "gradient_tolerance": 1e-08,
+      "trial_step": 1.0,
+      "shrink": 0.5,
+      "sufficient_decrease": 0.0001,
+      "max_backtracks": 60
+    },
+    "formal_parallel_workers": 4,
+    "torch_intraop_threads": 1
+  }
+}

@@ -1,0 +1,685 @@
+{
+  "mode": "formal",
+  "created_utc": "2026-09-17T02:41:01.392808+00:00",
+  "plan_sha256": "44f4e9e03940d4bf6af342f190c49fc567e96cf0db97989782e891bc9b4bc700",
+  "source_sha256": {
+    "__init__.py": "30e89f53a74020095efe89fb8356c3b1702dae3c1add7c09dcd5e2522c837cf6",
+    "analysis.py": "55116a6981d31b008347fa6c1d6f139040623bcfc9af66c69d6d02dba939bb8a",
+    "checks.py": "7152e105c5a1db523d4e4b4ff2f0b999fdc562168394f2c8dad186e415a2b48f",
+    "conditioning_pilot.py": "952a196c4d2b6657da0eeba793392e1a5298400a8f9516b8dc3c366c7ec37974",
+    "dynamics.py": "28b41d41c7030fa244deffa69f8f80ddffe3a221294fd5dc02ffd21575df6e21",
+    "experiment.py": "c093f108ac12a363259b272d7775ad9889520d4527bee299d1f87a7754919c35",
+    "features.py": "8adc707c45828b4852bb585ea51fc0a73b3a072e96528f9892db4accc6e92c41",
+    "io.py": "c9878de09f515533283cf0337d54e74a90de65bfee0e6019eb066eebda21b884",
+    "monitor.py": "3b5b51e91794c1073b555b8393c26dfc5c493b05fd5e72f5ca141c99f7968f43",
+    "objectives.py": "06808ed4ab356cbbbafd5fca869bdf337143f294db981bcebd9b53ab9214d60e",
+    "pilot500k.py": "e2d93be70cef4332b00d88f5e841b04c8c54de79dfef5287d8e2ac6f254b6a45",
+    "run.py": "ad9a7b52693c39d7620d59e5b22a64b02a82a677a99d85b067516c31ca86ba6c",
+    "sampling.py": "1b224bea42e58776c1ea2588c29752a1598787765343d24697980944e34b6e3f"
+  },
+  "max_steps": 50000,
+  "expected_runs": 73,
+  "planned_runs": [
+    "random_cubic_seed0_zero",
+    "random_cubic_seed1_zero",
+    "random_cubic_seed2_zero",
+    "random_cubic_seed3_zero",
+    "random_cubic_seed4_zero",
+    "random_cubic_seed5_zero",
+    "random_cubic_seed6_zero",
+    "random_cubic_seed7_zero",
+    "random_cubic_seed8_zero",
+    "random_cubic_seed9_zero",
+    "random_p4_seed0_zero",
+    "random_p4_seed0_plus",
+    "random_p4_seed0_minus",
+    "random_p4_seed1_zero",
+    "random_p4_seed1_plus",
+    "random_p4_seed1_minus",
+    "random_p4_seed2_zero",
+    "random_p4_seed2_plus",
+    "random_p4_seed2_minus",
+    "random_p4_seed3_zero",
+    "random_p4_seed3_plus",
+    "random_p4_seed3_minus",
+    "random_p4_seed4_zero",
+    "random_p4_seed4_plus",
+    "random_p4_seed4_minus",
+    "random_p4_seed5_zero",
+    "random_p4_seed5_plus",
+    "random_p4_seed5_minus",
+    "random_p4_seed6_zero",
+    "random_p4_seed6_plus",
+    "random_p4_seed6_minus",
+    "random_p4_seed7_zero",
+    "random_p4_seed7_plus",
+    "random_p4_seed7_minus",
+    "random_p4_seed8_zero",
+    "random_p4_seed8_plus",
+    "random_p4_seed8_minus",
+    "random_p4_seed9_zero",
+    "random_p4_seed9_plus",
+    "random_p4_seed9_minus",
+    "random_ac_seed0_plus",
+    "random_ac_seed1_plus",
+    "random_ac_seed2_plus",
+    "random_ac_seed3_plus",
+    "random_ac_seed4_plus",
+    "random_ac_seed5_plus",
+    "random_ac_seed6_plus",
+    "random_ac_seed7_plus",
+    "random_ac_seed8_plus",
+    "random_ac_seed9_plus",
+    "control_p4_seed30001_plus",
+    "control_p4_seed30001_minus",
+    "control_ac_seed30001_plus",
+    "qr_p4_seed0_plus",
+    "qr_p4_seed1_plus",
+    "qr_p4_seed2_plus",
+    "qr_p4_seed3_plus",
+    "qr_p4_seed4_plus",
+    "qr_p4_seed5_plus",
+    "qr_p4_seed6_plus",
+    "qr_p4_seed7_plus",
+    "qr_p4_seed8_plus",
+    "qr_p4_seed9_plus",
+    "qr_ac_seed0_plus",
+    "qr_ac_seed1_plus",
+    "qr_ac_seed2_plus",
+    "qr_ac_seed3_plus",
+    "qr_ac_seed4_plus",
+    "qr_ac_seed5_plus",
+    "qr_ac_seed6_plus",
+    "qr_ac_seed7_plus",
+    "qr_ac_seed8_plus",
+    "qr_ac_seed9_plus"
+  ],
+  "records": [
+    {
+      "run": "random_cubic_seed0_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_cubic_seed0_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0011481007360026466,
+      "elapsed_seconds": 123.17936569999438
+    },
+    {
+      "run": "random_cubic_seed1_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_cubic_seed1_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.002582467592749325,
+      "elapsed_seconds": 120.53359210000781
+    },
+    {
+      "run": "random_cubic_seed2_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_cubic_seed2_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0013286312324349119,
+      "elapsed_seconds": 122.84717150000506
+    },
+    {
+      "run": "random_cubic_seed3_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_cubic_seed3_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.00031027633686817534,
+      "elapsed_seconds": 121.57751669999561
+    },
+    {
+      "run": "random_cubic_seed4_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_cubic_seed4_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0007176024042388545,
+      "elapsed_seconds": 127.20839529999648
+    },
+    {
+      "run": "random_cubic_seed5_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_cubic_seed5_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.001489354011195374,
+      "elapsed_seconds": 119.37594280000485
+    },
+    {
+      "run": "random_cubic_seed6_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_cubic_seed6_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0003187915435416894,
+      "elapsed_seconds": 115.0037369000056
+    },
+    {
+      "run": "random_cubic_seed7_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_cubic_seed7_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0016387761051280105,
+      "elapsed_seconds": 121.89916450000601
+    },
+    {
+      "run": "random_cubic_seed8_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_cubic_seed8_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.00045242865196299916,
+      "elapsed_seconds": 118.05909920000704
+    },
+    {
+      "run": "random_cubic_seed9_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_cubic_seed9_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.001842404980699573,
+      "elapsed_seconds": 124.42239029999473
+    },
+    {
+      "run": "random_p4_seed0_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed0_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.000328038299579832,
+      "elapsed_seconds": 25.105324500007555
+    },
+    {
+      "run": "random_p4_seed0_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed0_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.00014540184592364705,
+      "elapsed_seconds": 24.839671200010343
+    },
+    {
+      "run": "random_p4_seed0_minus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed0_minus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.00031517261865129264,
+      "elapsed_seconds": 24.7063649000047
+    },
+    {
+      "run": "random_p4_seed1_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed1_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0028872185019953728,
+      "elapsed_seconds": 22.947429199994076
+    },
+    {
+      "run": "random_p4_seed1_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed1_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0019308729351900434,
+      "elapsed_seconds": 22.66602309999871
+    },
+    {
+      "run": "random_p4_seed1_minus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed1_minus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0026089756566342365,
+      "elapsed_seconds": 22.76105820000521
+    },
+    {
+      "run": "random_p4_seed2_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed2_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.00016307965261223975,
+      "elapsed_seconds": 25.17444869999599
+    },
+    {
+      "run": "random_p4_seed2_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed2_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.00020287255134866143,
+      "elapsed_seconds": 25.23504729999695
+    },
+    {
+      "run": "random_p4_seed2_minus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed2_minus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0003102944650829409,
+      "elapsed_seconds": 25.03544609999517
+    },
+    {
+      "run": "random_p4_seed3_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed3_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0023434148738309592,
+      "elapsed_seconds": 24.76203810000152
+    },
+    {
+      "run": "random_p4_seed3_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed3_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0026925085914676103,
+      "elapsed_seconds": 25.115592599991942
+    },
+    {
+      "run": "random_p4_seed3_minus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed3_minus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0020213193550613845,
+      "elapsed_seconds": 25.13629390001006
+    },
+    {
+      "run": "random_p4_seed4_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed4_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0005989846225611768,
+      "elapsed_seconds": 26.052447900001425
+    },
+    {
+      "run": "random_p4_seed4_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed4_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0006808171886047614,
+      "elapsed_seconds": 25.98780380000244
+    },
+    {
+      "run": "random_p4_seed4_minus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed4_minus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0009431563701674776,
+      "elapsed_seconds": 26.03714139999647
+    },
+    {
+      "run": "random_p4_seed5_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed5_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0010707228428595854,
+      "elapsed_seconds": 23.815949900003034
+    },
+    {
+      "run": "random_p4_seed5_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed5_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0012990923226385417,
+      "elapsed_seconds": 23.34370919999492
+    },
+    {
+      "run": "random_p4_seed5_minus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed5_minus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0013161171059829608,
+      "elapsed_seconds": 23.10902069999429
+    },
+    {
+      "run": "random_p4_seed6_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed6_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0001388029370216288,
+      "elapsed_seconds": 24.24858500000846
+    },
+    {
+      "run": "random_p4_seed6_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed6_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.00010524332130306795,
+      "elapsed_seconds": 24.015234000005876
+    },
+    {
+      "run": "random_p4_seed6_minus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed6_minus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.00011634529080434561,
+      "elapsed_seconds": 24.120702100000926
+    },
+    {
+      "run": "random_p4_seed7_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed7_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0008655332328540851,
+      "elapsed_seconds": 25.789779800004908
+    },
+    {
+      "run": "random_p4_seed7_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed7_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0010750214873607561,
+      "elapsed_seconds": 25.78750369999034
+    },
+    {
+      "run": "random_p4_seed7_minus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed7_minus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.001218147666275302,
+      "elapsed_seconds": 25.740356399997836
+    },
+    {
+      "run": "random_p4_seed8_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed8_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.002871647506971031,
+      "elapsed_seconds": 26.471737400002894
+    },
+    {
+      "run": "random_p4_seed8_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed8_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.003565928972684641,
+      "elapsed_seconds": 27.10683840001002
+    },
+    {
+      "run": "random_p4_seed8_minus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed8_minus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0022832635606322925,
+      "elapsed_seconds": 27.299639999997453
+    },
+    {
+      "run": "random_p4_seed9_zero",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed9_zero\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.004335827787254061,
+      "elapsed_seconds": 23.425586099998327
+    },
+    {
+      "run": "random_p4_seed9_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed9_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.005339806751243091,
+      "elapsed_seconds": 23.45624769999995
+    },
+    {
+      "run": "random_p4_seed9_minus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_p4_seed9_minus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.003411450654802627,
+      "elapsed_seconds": 23.4508235000103
+    },
+    {
+      "run": "random_ac_seed0_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_ac_seed0_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.00023022566858487737,
+      "elapsed_seconds": 17.040714200004004
+    },
+    {
+      "run": "random_ac_seed1_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_ac_seed1_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0003229884571969286,
+      "elapsed_seconds": 16.85468600000604
+    },
+    {
+      "run": "random_ac_seed2_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_ac_seed2_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0003177984411109593,
+      "elapsed_seconds": 16.96440799999982
+    },
+    {
+      "run": "random_ac_seed3_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_ac_seed3_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0003322532056196327,
+      "elapsed_seconds": 16.88904470000125
+    },
+    {
+      "run": "random_ac_seed4_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_ac_seed4_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.00026737148474587693,
+      "elapsed_seconds": 16.668467899988173
+    },
+    {
+      "run": "random_ac_seed5_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_ac_seed5_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.00021134652051857017,
+      "elapsed_seconds": 16.843139400007203
+    },
+    {
+      "run": "random_ac_seed6_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_ac_seed6_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0001006823118523635,
+      "elapsed_seconds": 16.980962000001455
+    },
+    {
+      "run": "random_ac_seed7_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_ac_seed7_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.0002480457814716722,
+      "elapsed_seconds": 16.9411822000111
+    },
+    {
+      "run": "random_ac_seed8_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_ac_seed8_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.00012463390644417414,
+      "elapsed_seconds": 16.712819799999124
+    },
+    {
+      "run": "random_ac_seed9_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\random_ac_seed9_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 0.00027170299253602334,
+      "elapsed_seconds": 16.633791399988695
+    },
+    {
+      "run": "control_p4_seed30001_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\control_p4_seed30001_plus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 3.736040219062735e-07,
+      "elapsed_seconds": 25.628398900007596
+    },
+    {
+      "run": "control_p4_seed30001_minus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\control_p4_seed30001_minus\\metadata.json",
+      "stop_reason": "iteration_budget",
+      "accepted_steps": 50000,
+      "final_gradient": 3.3418128425941283e-07,
+      "elapsed_seconds": 25.858764600008726
+    },
+    {
+      "run": "control_ac_seed30001_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\control_ac_seed30001_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 9579,
+      "final_gradient": 1.969974734486372e-09,
+      "elapsed_seconds": 3.2090716999955475
+    },
+    {
+      "run": "qr_p4_seed0_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_p4_seed0_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 91,
+      "final_gradient": 8.126461258678237e-08,
+      "elapsed_seconds": 0.08649719999812078
+    },
+    {
+      "run": "qr_p4_seed1_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_p4_seed1_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 85,
+      "final_gradient": 1.4161716889400538e-06,
+      "elapsed_seconds": 0.0796081000007689
+    },
+    {
+      "run": "qr_p4_seed2_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_p4_seed2_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 88,
+      "final_gradient": 9.289436999934592e-07,
+      "elapsed_seconds": 0.03905970000778325
+    },
+    {
+      "run": "qr_p4_seed3_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_p4_seed3_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 86,
+      "final_gradient": 3.39267126592065e-07,
+      "elapsed_seconds": 0.08886730000085663
+    },
+    {
+      "run": "qr_p4_seed4_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_p4_seed4_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 543,
+      "final_gradient": 1.8438150766733086e-07,
+      "elapsed_seconds": 0.5248238999920432
+    },
+    {
+      "run": "qr_p4_seed5_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_p4_seed5_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 93,
+      "final_gradient": 6.009608604841972e-08,
+      "elapsed_seconds": 0.11713319999398664
+    },
+    {
+      "run": "qr_p4_seed6_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_p4_seed6_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 105,
+      "final_gradient": 1.0875809939942894e-08,
+      "elapsed_seconds": 0.11150970000016969
+    },
+    {
+      "run": "qr_p4_seed7_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_p4_seed7_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 140,
+      "final_gradient": 3.00934331787387e-08,
+      "elapsed_seconds": 0.12318760000925977
+    },
+    {
+      "run": "qr_p4_seed8_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_p4_seed8_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 65,
+      "final_gradient": 9.083222819199538e-06,
+      "elapsed_seconds": 0.06300909999117721
+    },
+    {
+      "run": "qr_p4_seed9_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_p4_seed9_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 86,
+      "final_gradient": 3.2775157146575323e-07,
+      "elapsed_seconds": 0.08825619998970069
+    },
+    {
+      "run": "qr_ac_seed0_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_ac_seed0_plus\\metadata.json",
+      "stop_reason": "gradient_tolerance",
+      "accepted_steps": 65,
+      "final_gradient": 9.655402065323222e-11,
+      "elapsed_seconds": 0.047331499998108484
+    },
+    {
+      "run": "qr_ac_seed1_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_ac_seed1_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 52,
+      "final_gradient": 1.9333586825126889e-07,
+      "elapsed_seconds": 0.040755299996817484
+    },
+    {
+      "run": "qr_ac_seed2_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_ac_seed2_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 211,
+      "final_gradient": 4.034755423383724e-08,
+      "elapsed_seconds": 0.7467486999958055
+    },
+    {
+      "run": "qr_ac_seed3_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_ac_seed3_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 51,
+      "final_gradient": 8.146769391150899e-08,
+      "elapsed_seconds": 0.02787920000264421
+    },
+    {
+      "run": "qr_ac_seed4_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_ac_seed4_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 59,
+      "final_gradient": 1.1222095058328811e-08,
+      "elapsed_seconds": 0.035745800007134676
+    },
+    {
+      "run": "qr_ac_seed5_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_ac_seed5_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 59,
+      "final_gradient": 1.7714277909902603e-08,
+      "elapsed_seconds": 0.035710500000277534
+    },
+    {
+      "run": "qr_ac_seed6_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_ac_seed6_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 150,
+      "final_gradient": 1.824679205764776e-08,
+      "elapsed_seconds": 0.48146039999846835
+    },
+    {
+      "run": "qr_ac_seed7_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_ac_seed7_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 81,
+      "final_gradient": 7.562302384083876e-10,
+      "elapsed_seconds": 0.09656999999424443
+    },
+    {
+      "run": "qr_ac_seed8_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_ac_seed8_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 40,
+      "final_gradient": 1.3191547993684333e-06,
+      "elapsed_seconds": 0.027945900001213886
+    },
+    {
+      "run": "qr_ac_seed9_plus",
+      "metadata": "output\\experiment2\\formal_20260917_v1\\qr_ac_seed9_plus\\metadata.json",
+      "stop_reason": "step_underflow",
+      "accepted_steps": 266,
+      "final_gradient": 2.145391392046045e-08,
+      "elapsed_seconds": 1.106448199992883
+    }
+  ],
+  "skipped": [],
+  "interrupted": []
+}

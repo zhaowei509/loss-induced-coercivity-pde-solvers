@@ -1,0 +1,80 @@
+{
+  "created_utc": "2026-09-21T03:54:52.851397+00:00",
+  "environment": {
+    "created_utc": "2026-09-21T03:54:52.857175+00:00",
+    "cuda_available": true,
+    "cuda_device": "NVIDIA GeForce RTX 4060 Ti",
+    "numpy": "2.1.2",
+    "pid": 2756,
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.15 | packaged by Anaconda, Inc. | (main, Oct  3 2024, 07:22:19) [MSC v.1929 64 bit (AMD64)]",
+    "scipy": "1.15.2",
+    "torch": "2.4.1+cu121",
+    "torch_cuda_version": "12.1"
+  },
+  "frozen_config": {
+    "configurations": {
+      "N32768": [
+        128,
+        32768
+      ],
+      "N4096": [
+        128,
+        4096
+      ],
+      "W128_C": [
+        128,
+        16384
+      ],
+      "W256": [
+        256,
+        16384
+      ],
+      "W64": [
+        64,
+        16384
+      ]
+    },
+    "device": "cuda",
+    "feature_scale": 1.0,
+    "frequency": 1,
+    "optimizer": {
+      "history_size": 50,
+      "max_closures": 2000,
+      "max_iterations": 500,
+      "relative_gradient_tolerance": 1e-08
+    },
+    "resource_gate_failures": [],
+    "resource_limit_bytes": 5905580032,
+    "resource_smoke_manifest_sha256": "c97e65fca61a9020dbd842e15697668060ce91e69758d05961ec4debd4fa20f7",
+    "seeds": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  "git": {
+    "commit": null,
+    "dirty": null
+  },
+  "plan_path": "C:\\Users\\ntkexp\\BeyondNTK\\PAPER_A_SUPPLEMENTARY_EXPERIMENT_PLAN.md",
+  "plan_sha256": "e1a313d3e1f5c59888c89be271264593d15d4aa86adc89cba13b1eddd7eaad0a",
+  "run_kind": "formal",
+  "schema_version": 1,
+  "source_sha256": {
+    "experiments\\Ex2\\supplement\\application_checks.py": "9663a0c1f78c1bf04457ed7ae8cffdacc338babf6d83171d371368a4d0a9355b",
+    "experiments\\Ex2\\supplement\\application_common.py": "22f080c20418315386f25edf8aa870a6dfb2753a39dac0ca885cb188ada87993",
+    "experiments\\Ex2\\supplement\\application_scale.py": "3943a98a896a31cab125a261d3bfb57f40720814c7e57c0a194b6bf6c1634128",
+    "experiments\\shared\\artifacts.py": "530a2b2b0ea07a69d79ad16cdf7a5b802b9f85b7bbaecbeda52837d752abc089",
+    "experiments\\shared\\manifests.py": "eea14695dfa5fee4caf10776dd51b24e03c4b279b225ec5e9d31e8cb57cc5d4f",
+    "experiments\\shared\\numerics.py": "74a4b1b3ef03bead6d4bc849c153c91eba418ee5edc06b14d01a84bf6531c3a6"
+  },
+  "supplement": "S3A"
+}

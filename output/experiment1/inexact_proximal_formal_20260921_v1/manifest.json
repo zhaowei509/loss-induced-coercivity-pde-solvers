@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-09-21T03:40:17.930013+00:00",
+  "environment": {
+    "created_utc": "2026-09-21T03:40:17.955433+00:00",
+    "cuda_available": true,
+    "cuda_device": "NVIDIA GeForce RTX 4060 Ti",
+    "numpy": "2.1.2",
+    "pid": 8848,
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.15 | packaged by Anaconda, Inc. | (main, Oct  3 2024, 07:22:19) [MSC v.1929 64 bit (AMD64)]",
+    "scipy": "1.15.2",
+    "torch": "2.4.1+cu121",
+    "torch_cuda_version": "12.1"
+  },
+  "frozen_config": {
+    "algorithm": {
+      "checkpoints": [
+        25,
+        50,
+        100,
+        200
+      ],
+      "eta": 0.5,
+      "gradient_tolerance": 1e-08,
+      "history_size": 20,
+      "max_outer_steps": 100,
+      "radius_tolerance": 1e-10,
+      "relative_residual": 0.1
+    },
+    "direction_generator": "NumPy PCG64(10000 + feature_seed)",
+    "feature_generator": "existing Experiment 1 torch stream",
+    "initializations": [
+      "zero",
+      "pcg64_direction"
+    ],
+    "interior_count": 2048,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "git": {
+    "commit": null,
+    "dirty": null
+  },
+  "plan_path": "C:\\Users\\ntkexp\\BeyondNTK\\PAPER_A_SUPPLEMENTARY_EXPERIMENT_PLAN.md",
+  "plan_sha256": "e1a313d3e1f5c59888c89be271264593d15d4aa86adc89cba13b1eddd7eaad0a",
+  "run_kind": "formal",
+  "schema_version": 1,
+  "source_sha256": {
+    "experiments\\Ex1\\diagnostics.py": "dc67352feebe9fdfbe2023ea7a3dea09d8bc57a96c230b2bc2f30ea408f63f04",
+    "experiments\\Ex1\\experiment.py": "882e7574c1eabb87aa5a6de036160d542745bbdcf89530c5788efd156da0f732",
+    "experiments\\Ex1\\features.py": "eb3f5c399cff298d031985afbbd7819c79d33f1716f4419f78dc04341fab9bb9",
+    "experiments\\Ex1\\problems.py": "642173d804f57247151a25a00a10a8cf13641d847c236bc3d95291e86e24775f",
+    "experiments\\Ex1\\sampling.py": "12db9c081223fc64c61f2818081ee38760bd5a384903278cafb2b49869777368",
+    "experiments\\Ex1\\supplement\\checks.py": "8e7ed7e6a6f06c1cf298212fc694a05830a18bd6b9aa43f20f234e67fed2d469",
+    "experiments\\Ex1\\supplement\\inexact_proximal.py": "a1e6ba9b9011621085933b0b588bd95e86c708842899a36c389a94c296563ca5",
+    "experiments\\Ex1\\supplement\\run.py": "ff354a6a30076e22835786aa1c4ac89c5cd0fb1b415a67ee4049cf8c6515516c",
+    "experiments\\shared\\artifacts.py": "530a2b2b0ea07a69d79ad16cdf7a5b802b9f85b7bbaecbeda52837d752abc089",
+    "experiments\\shared\\manifests.py": "eea14695dfa5fee4caf10776dd51b24e03c4b279b225ec5e9d31e8cb57cc5d4f"
+  },
+  "supplement": "S1"
+}

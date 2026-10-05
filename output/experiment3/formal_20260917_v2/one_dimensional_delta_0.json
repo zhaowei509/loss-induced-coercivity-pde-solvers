@@ -1,0 +1,52 @@
+{
+  "parameters": [
+    1.0,
+    1.0
+  ],
+  "final": {
+    "objective": 0.0,
+    "residual_norm": 0.0,
+    "gradient_norm": 0.0,
+    "sigma_min_boundary": 1.0767157303730102,
+    "rank_threshold": 6.153829429150803e-16,
+    "boundary_full_column_rank": true,
+    "mu_B": 1.1593167640326847,
+    "mu_GN": 6.401043436545512,
+    "kappa_rem": 0.0,
+    "delta_curv": 6.401043436545512,
+    "lambda_min_hessian": 6.401043436545512
+  },
+  "reached_gradient_tolerance": true,
+  "solver": {
+    "message": "analytic zero-residual point",
+    "iterations": 0
+  },
+  "branch": "one_dimensional",
+  "delta": 0.0,
+  "train_order": 256,
+  "refinement_order": 512,
+  "refined": {
+    "objective": 0.0,
+    "residual_norm": 0.0,
+    "gradient_norm": 0.0,
+    "sigma_min_boundary": 1.0767157303730102,
+    "rank_threshold": 6.153829429150803e-16,
+    "boundary_full_column_rank": true,
+    "mu_B": 1.1593167640326847,
+    "mu_GN": 6.4010434365452475,
+    "kappa_rem": 0.0,
+    "delta_curv": 6.4010434365452475,
+    "lambda_min_hessian": 6.4010434365452475
+  },
+  "quadrature_delta_curv_difference": -2.646771690706373e-13,
+  "quadrature_sign_stable": true,
+  "numerical_conditions": {
+    "stationary": true,
+    "boundary_full_column_rank": true,
+    "gauss_newton_above_boundary_floor": true,
+    "hessian_above_curvature_gap": true,
+    "positive_curvature_gap": true,
+    "refinement_sign_stable": true
+  },
+  "numerical_conditions_met": true
+}

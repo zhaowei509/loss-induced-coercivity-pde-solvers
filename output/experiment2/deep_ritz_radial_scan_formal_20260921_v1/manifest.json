@@ -1,0 +1,59 @@
+{
+  "created_utc": "2026-09-21T04:06:25.700615+00:00",
+  "environment": {
+    "created_utc": "2026-09-21T04:06:25.766037+00:00",
+    "cuda_available": true,
+    "cuda_device": "NVIDIA GeForce RTX 4060 Ti",
+    "numpy": "2.1.2",
+    "pid": 14676,
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.15 | packaged by Anaconda, Inc. | (main, Oct  3 2024, 07:22:19) [MSC v.1929 64 bit (AMD64)]",
+    "scipy": "1.15.2",
+    "torch": "2.4.1+cu121",
+    "torch_cuda_version": "12.1"
+  },
+  "frozen_config": {
+    "direction_indices": [
+      0,
+      1,
+      2
+    ],
+    "direction_seed": "20000 + 3 * feature_seed + direction_index",
+    "feature_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "quadrature_orders": [
+      256,
+      512
+    ]
+  },
+  "git": {
+    "commit": null,
+    "dirty": null
+  },
+  "plan_path": "C:\\Users\\ntkexp\\BeyondNTK\\PAPER_A_SUPPLEMENTARY_EXPERIMENT_PLAN.md",
+  "plan_sha256": "e1a313d3e1f5c59888c89be271264593d15d4aa86adc89cba13b1eddd7eaad0a",
+  "run_kind": "formal",
+  "schema_version": 1,
+  "source_sha256": {
+    "experiments\\Ex2\\experiment.py": "c093f108ac12a363259b272d7775ad9889520d4527bee299d1f87a7754919c35",
+    "experiments\\Ex2\\features.py": "8adc707c45828b4852bb585ea51fc0a73b3a072e96528f9892db4accc6e92c41",
+    "experiments\\Ex2\\objectives.py": "06808ed4ab356cbbbafd5fca869bdf337143f294db981bcebd9b53ab9214d60e",
+    "experiments\\Ex2\\sampling.py": "1b224bea42e58776c1ea2588c29752a1598787765343d24697980944e34b6e3f",
+    "experiments\\Ex2\\supplement\\radial_checks.py": "7f231cd5cd9e75dc7430a5a0fe0d7fb43471eb578d250d2c02d9e5eb3290c482",
+    "experiments\\Ex2\\supplement\\radial_scan.py": "a5982028b7c54a6912a2cbc5a6a2315e820bbb570b9ae384bafcaad6a13f4052",
+    "experiments\\Ex2\\supplement\\run_radial.py": "22747a97a9aa2a7ce56a9ca5c2a8a51b2996474e17fafcaf5a97230188d13d70",
+    "experiments\\shared\\artifacts.py": "530a2b2b0ea07a69d79ad16cdf7a5b802b9f85b7bbaecbeda52837d752abc089",
+    "experiments\\shared\\manifests.py": "eea14695dfa5fee4caf10776dd51b24e03c4b279b225ec5e9d31e8cb57cc5d4f"
+  },
+  "supplement": "S4"
+}
