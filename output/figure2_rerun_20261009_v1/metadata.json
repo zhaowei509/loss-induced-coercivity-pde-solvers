@@ -1,0 +1,31 @@
+{
+  "algorithm_source": "experiments/legacy_burgers_ntk/figure2_burgers_ntk.ipynb",
+  "device": "cpu",
+  "dtype": "float64",
+  "elapsed_seconds": 451.13180247400123,
+  "experiment": "Burgers residual-NTK diagnostic for manuscript Figure 2",
+  "parameters": {
+    "boundary_points": 3,
+    "eta": 0.01,
+    "inner_lbfgs_steps": 10,
+    "interior_lhs_points": 3,
+    "learning_rate": 0.01,
+    "outer_steps": 1000,
+    "residual_points_after_boundary_augmentation": 6,
+    "threads": 8,
+    "width": 100000
+  },
+  "seed": 1234,
+  "software": {
+    "matplotlib": "3.8.0",
+    "numpy": "1.26.4",
+    "platform": "macOS-10.16-x86_64-i386-64bit",
+    "pyDOE": "0.3.8",
+    "python": "3.11.7",
+    "scipy": "1.11.4",
+    "torch": "2.2.2"
+  },
+  "source_data": "burgers_shock_mu_01_pi.mat",
+  "source_data_sha256": "7dd1d6d216dbc7db7ff68cefe9fdf8754146d3029ad262ba8b2bd5068fbdebc3",
+  "trajectory_sha256": "0dc8c3c6c7c8e3e1271f5379e912a10860cddc790849c2f6fb4474180511fd74"
+}
